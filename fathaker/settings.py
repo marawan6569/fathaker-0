@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRETKEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.getenv('DEBUG'))
+DEBUG = bool(int(os.getenv('DEBUG')))
 
 ALLOWED_HOSTS = os.getenv('ALLOWEDHOSTS').split(';')
 
@@ -132,4 +132,5 @@ MEDIA_ROOT = 'media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = os.getenv('TRUSTEDORIGINS').split(';')
+if bool(int(os.getenv('DEBLOYED'))):
+    CSRF_TRUSTED_ORIGINS = os.getenv('TRUSTEDORIGINS').split(';')
