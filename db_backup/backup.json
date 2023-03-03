@@ -1,0 +1,2303 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-02-28T20:43:32.899Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Radio 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-02-28T20:58:22.183Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cat 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-02-28T20:58:29.035Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Radio 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Radio Categories\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-02-28T20:58:35.894Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "cat 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-02-28T20:58:40.042Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "cat 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-02-28T21:04:23.087Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Radio 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Radio Categories\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-03-01T21:43:22.086Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "164",
+        "object_repr": "يوم عاشوراء",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Radio Categories\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add radio",
+        "content_type": 7,
+        "codename": "add_radio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change radio",
+        "content_type": 7,
+        "codename": "change_radio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete radio",
+        "content_type": 7,
+        "codename": "delete_radio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view radio",
+        "content_type": 7,
+        "codename": "view_radio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Category",
+        "content_type": 8,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Category",
+        "content_type": 8,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Category",
+        "content_type": 8,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Category",
+        "content_type": 8,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$f2IY7HpfTGkj6HyCjXc5ki$/nFPMM4/2vHHwdrqopzZh7tQN+gfCv+W6MUWNnEqaMw=",
+        "last_login": "2023-03-01T21:43:00.253Z",
+        "is_superuser": true,
+        "username": "marwanmohamed",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-02-28T20:38:04.505Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "radio",
+        "model": "radio"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "radio",
+        "model": "category"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "23j62ltk1ectsy02lu8c072fdc06ygeg",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgCIxL956hGWZAqgaS0q6MdzckXej2v_f-W8y4b2Xee1rnhcVFaHH63SLSM9UB-IH13iS1uq1LlEORB-3y1ji9rof7d1Cwl1EDMCliiDGnbI11yilvMyRwpEPkydvgDGBQ7BGBglLA0WoTpjO5ID5f9b43vQ:1pXUE0:xXyh2sdmq9oCGAJvvEXQ3rQtCYZ2CNPTToMOx1ATPBc",
+        "expire_date": "2023-03-15T21:43:00.257Z"
+    }
+},
+{
+    "model": "radio.category",
+    "pk": 1,
+    "fields": {
+        "name": "cat 1"
+    }
+},
+{
+    "model": "radio.category",
+    "pk": 2,
+    "fields": {
+        "name": "cat 2"
+    }
+},
+{
+    "model": "radio.category",
+    "pk": 3,
+    "fields": {
+        "name": "cat 3"
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 1,
+    "fields": {
+        "name": "Radio 1",
+        "stream_url": "http://127.0.0.1:8000/admin/radio/radio/add/",
+        "description": "",
+        "image": "radio/fotor_2023-2-16_12_21_17-min.png",
+        "categories": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 2,
+    "fields": {
+        "name": "---إذاعة صور من حياة الصحابة رضوان الله عليهم---",
+        "stream_url": "https://qurango.net/radio/sahabah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 3,
+    "fields": {
+        "name": "---تراتيل قصيرة متميزة---",
+        "stream_url": "https://Qurango.net/radio/tarateel",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 4,
+    "fields": {
+        "name": "--إذاعة آيات السكينة--",
+        "stream_url": "https://qurango.net/radio/sakeenah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 5,
+    "fields": {
+        "name": "--تفسير القران الكريم--",
+        "stream_url": "https://qurango.net/radio/tafseer",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 6,
+    "fields": {
+        "name": "--سورة البقرة - لعدد من القراء",
+        "stream_url": "https://backup.qurango.net/radio/albaqarah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 7,
+    "fields": {
+        "name": "-الإذاعة العامة - اذاعة متنوعة لمختلف القراء",
+        "stream_url": "https://Qurango.net/radio/mix",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 8,
+    "fields": {
+        "name": "-تلاوات خاشعة-",
+        "stream_url": "https://qurango.net/radio/salma",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 9,
+    "fields": {
+        "name": "أحمد الحواشي",
+        "stream_url": "https://Qurango.net/radio/ahmad_alhawashi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 10,
+    "fields": {
+        "name": "أحمد الطرابلسي",
+        "stream_url": "https://Qurango.net/radio/ahmed_altrabulsi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 11,
+    "fields": {
+        "name": "أحمد الطرابلسي - رواية قالون عن نافع",
+        "stream_url": "https://Qurango.net/radio/ahmad_khader_altarabulsi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 12,
+    "fields": {
+        "name": "أحمد بن علي العجمي",
+        "stream_url": "https://Qurango.net/radio/ahmad_alajmy",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 13,
+    "fields": {
+        "name": "أحمد خليل شاهين",
+        "stream_url": "https://Qurango.net/radio/ahmad_shaheen",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 14,
+    "fields": {
+        "name": "أحمد ديبان",
+        "stream_url": "https://Qurango.net/radio/ahmad_deban",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 15,
+    "fields": {
+        "name": "أحمد صابر",
+        "stream_url": "https://Qurango.net/radio/ahmad_saber",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 16,
+    "fields": {
+        "name": "أحمد عامر",
+        "stream_url": "https://Qurango.net/radio/ahmed_amer",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 17,
+    "fields": {
+        "name": "أحمد نعينع",
+        "stream_url": "https://Qurango.net/radio/ahmad_nauina",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 18,
+    "fields": {
+        "name": "أذكار الصباح",
+        "stream_url": "https://qurango.net/radio/athkar_sabah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 19,
+    "fields": {
+        "name": "أذكار المساء",
+        "stream_url": "https://qurango.net/radio/athkar_masa",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 20,
+    "fields": {
+        "name": "أكرم العلاقمي",
+        "stream_url": "https://Qurango.net/radio/akram_alalaqmi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 21,
+    "fields": {
+        "name": "إبراهيم الأخضر",
+        "stream_url": "https://Qurango.net/radio/ibrahim_alakdar",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 22,
+    "fields": {
+        "name": "إبراهيم الدوسري - رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/ibrahim_aldosari",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 23,
+    "fields": {
+        "name": "إدريس أبكر",
+        "stream_url": "https://Qurango.net/radio/idrees_abkr",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 24,
+    "fields": {
+        "name": "الدوكالي محمد العالم - رواية قالون عن نافع",
+        "stream_url": "https://Qurango.net/radio/addokali_mohammad_alalim",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 25,
+    "fields": {
+        "name": "الرقية الشرعية",
+        "stream_url": "https://qurango.net/radio/roqiah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 26,
+    "fields": {
+        "name": "الزين محمد أحمد",
+        "stream_url": "https://Qurango.net/radio/alzain_mohammad_ahmad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 27,
+    "fields": {
+        "name": "العيون الكوشي - رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/aloyoon_alkoshi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 28,
+    "fields": {
+        "name": "الفاتح محمد الزبير- رواية الدوري عن أبي عمرو",
+        "stream_url": "https://Qurango.net/radio/alfateh_alzubair",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 29,
+    "fields": {
+        "name": "الفتاوى",
+        "stream_url": "https://qurango.net/radio/fatwa",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 30,
+    "fields": {
+        "name": "القارئ ياسين- رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/alqaria_yassen",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 31,
+    "fields": {
+        "name": "المختصر في السيرة النبوية - حلقات مختصرة عن سيرة نبيّنا محمد صلى الله عليه وسلم",
+        "stream_url": "https://Qurango.net/radio/almukhtasar_fi_alsiyra",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 32,
+    "fields": {
+        "name": "المختصر في تفسير القرآن الكريم",
+        "stream_url": "https://qurango.net/radio/mukhtasartafsir",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 33,
+    "fields": {
+        "name": "بندر بليله",
+        "stream_url": "https://Qurango.net/radio/bandar_balilah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 34,
+    "fields": {
+        "name": "ترجمة معاني القرآن الكريم باللغة الأوردية - القارئ عبدالباسط عبدالصمد",
+        "stream_url": "https://qurango.net/radio/translation_quran_urdu_basit",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 35,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الأسبانية",
+        "stream_url": "https://qurango.net/radio/translation_quran_spanish_afs",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 36,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الألبانية",
+        "stream_url": "https://qurango.net/radio/translation_quran_albanian",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 37,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الألمانية",
+        "stream_url": "https://qurango.net/radio/translation_quran_german",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 38,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الأمازيغية",
+        "stream_url": "https://qurango.net/radio/translation_quran_tamazight",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 39,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الأوردية - القارئ عبدالرحمن السديس و سعود الشريم",
+        "stream_url": "https://qurango.net/radio/translation_quran_urdu_sds_shur",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 40,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الأوردية - القارئ محمد المنشاوي",
+        "stream_url": "https://qurango.net/radio/translation_quran_urdu_minsh",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 41,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الإنجليزية -  القارئ عبدالباسط عبدالصمد",
+        "stream_url": "https://qurango.net/radio/translation_quran_english_basit",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 42,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الإنجليزية -  القارئ عبدالله صفر",
+        "stream_url": "https://qurango.net/radio/translation_quran_english_bsfr",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 43,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الإنجليزية - ترجمة والك-  القارئ عبدالباسط عبدالصمد",
+        "stream_url": "https://qurango.net/radio/translation_quran_english_walk_basit",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 44,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة البرتغالية",
+        "stream_url": "https://qurango.net/radio/translation_quran_portuguese",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 45,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة البوسنية",
+        "stream_url": "https://qurango.net/radio/translation_quran_bosnia",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 46,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة التركية",
+        "stream_url": "https://qurango.net/radio/translation_quran_turkish",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 47,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الروسية",
+        "stream_url": "https://qurango.net/radio/translation_quran_Russia",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 48,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الصينية",
+        "stream_url": "https://qurango.net/radio/translation_quran_chinese",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 49,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الفارسية",
+        "stream_url": "https://qurango.net/radio/translation_quran_farsi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 50,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الفرنسية",
+        "stream_url": "https://qurango.net/radio/translation_quran_french",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 51,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الكردية",
+        "stream_url": "https://qurango.net/radio/translation_quran_kurdish",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 52,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة الكورية",
+        "stream_url": "https://qurango.net/radio/translation_quran_Korean",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 53,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة المجرية",
+        "stream_url": "https://qurango.net/radio/translation_quran_hungarian",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 54,
+    "fields": {
+        "name": "ترجمة معاني القرآن باللغة اليونانية",
+        "stream_url": "https://qurango.net/radio/translation_quran_greek",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 55,
+    "fields": {
+        "name": "تكبيرات العيد",
+        "stream_url": "https://qurango.net/radio/eid",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 56,
+    "fields": {
+        "name": "توفيق الصايغ",
+        "stream_url": "https://Qurango.net/radio/tawfeeq_assayegh",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 57,
+    "fields": {
+        "name": "جمال شاكر عبدالله",
+        "stream_url": "https://Qurango.net/radio/jamal_shaker_abdullah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 58,
+    "fields": {
+        "name": "جمعان العصيمي",
+        "stream_url": "https://Qurango.net/radio/jamaan_alosaimi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 59,
+    "fields": {
+        "name": "حاتم فريد الواعر",
+        "stream_url": "https://Qurango.net/radio/abdullah_alkandari",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 60,
+    "fields": {
+        "name": "خالد الجليل",
+        "stream_url": "https://Qurango.net/radio/khalid_aljileel",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 61,
+    "fields": {
+        "name": "خالد القحطاني",
+        "stream_url": "https://Qurango.net/radio/khaled_alqahtani",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 62,
+    "fields": {
+        "name": "خالد المهنا",
+        "stream_url": "https://Qurango.net/radio/khalid_almohana",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 63,
+    "fields": {
+        "name": "خالد عبدالكافي",
+        "stream_url": "https://Qurango.net/radio/khalid_abdulkafi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 64,
+    "fields": {
+        "name": "خليفة الطنيجي",
+        "stream_url": "https://Qurango.net/radio/khalifa_altunaiji",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 65,
+    "fields": {
+        "name": "زكي داغستاني",
+        "stream_url": "https://Qurango.net/radio/zaki_daghistani",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 66,
+    "fields": {
+        "name": "ستة من شوال",
+        "stream_url": "https://qurango.net/radio/SixDaysOfShawwal",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 67,
+    "fields": {
+        "name": "سعد الغامدي",
+        "stream_url": "https://Qurango.net/radio/saad_alghamdi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 68,
+    "fields": {
+        "name": "سعود الشريم",
+        "stream_url": "https://Qurango.net/radio/saud_alshuraim",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 69,
+    "fields": {
+        "name": "سهل ياسين",
+        "stream_url": "https://Qurango.net/radio/sahl_yassin",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 70,
+    "fields": {
+        "name": "سورة الملك",
+        "stream_url": "https://qurango.net/radio/Surah_Al-Mulk",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 71,
+    "fields": {
+        "name": "سيد رمضان",
+        "stream_url": "https://Qurango.net/radio/sayeed_ramadan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 72,
+    "fields": {
+        "name": "شهر رمضان المبارك",
+        "stream_url": "https://qurango.net/radio/ramadan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 73,
+    "fields": {
+        "name": "شيخ أبو بكر الشاطري",
+        "stream_url": "https://Qurango.net/radio/shaik_abu_bakr_al_shatri",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 74,
+    "fields": {
+        "name": "شيرزاد عبدالرحمن طاهر",
+        "stream_url": "https://Qurango.net/radio/shirazad_taher",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 75,
+    "fields": {
+        "name": "صابر عبدالحكم",
+        "stream_url": "https://Qurango.net/radio/saber_abdulhakm",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 76,
+    "fields": {
+        "name": "صلاح البدير",
+        "stream_url": "https://Qurango.net/radio/salah_albudair",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 77,
+    "fields": {
+        "name": "صلاح الهاشم",
+        "stream_url": "https://Qurango.net/radio/salah_alhashim",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 78,
+    "fields": {
+        "name": "صلاح بو خاطر",
+        "stream_url": "https://Qurango.net/radio/slaah_bukhatir",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 79,
+    "fields": {
+        "name": "طارق دعوب - رواية قالون عن نافع",
+        "stream_url": "https://Qurango.net/radio/tareq_abdulgani_daawob",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 80,
+    "fields": {
+        "name": "عادل الكلباني",
+        "stream_url": "https://Qurango.net/radio/adel_alkhalbany",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 81,
+    "fields": {
+        "name": "عادل ريان",
+        "stream_url": "https://Qurango.net/radio/adel_ryyan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 82,
+    "fields": {
+        "name": "عبدالبارئ الثبيتي",
+        "stream_url": "https://Qurango.net/radio/abdelbari_altoubayti",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 83,
+    "fields": {
+        "name": "عبدالبارئ محمد",
+        "stream_url": "https://Qurango.net/radio/abdulbari_mohammad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 84,
+    "fields": {
+        "name": "عبدالباسط عبدالصمد ",
+        "stream_url": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 85,
+    "fields": {
+        "name": "عبدالباسط عبدالصمد ",
+        "stream_url": "https://Qurango.net/radio/abdulbasit_abdulsamad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 86,
+    "fields": {
+        "name": "عبدالباسط عبدالصمد - رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/abdulbasit_abdulsamad_warsh",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 87,
+    "fields": {
+        "name": "عبدالرحمن السديس",
+        "stream_url": "https://Qurango.net/radio/abdulrahman_alsudaes",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 88,
+    "fields": {
+        "name": "عبدالرحمن الشحات",
+        "stream_url": "https://Qurango.net/radio/a_alshahhat",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 89,
+    "fields": {
+        "name": "عبدالرحمن الماجد",
+        "stream_url": "https://Qurango.net/radio/abdulrahman_almajed",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 90,
+    "fields": {
+        "name": "عبدالرشيد صوفي - رواية السوسي عن أبي عمرو",
+        "stream_url": "https://Qurango.net/radio/abdulrasheed_soufi_assosi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 91,
+    "fields": {
+        "name": "عبدالرشيد صوفي - رواية خلف عن حمزة",
+        "stream_url": "https://Qurango.net/radio/abdulrasheed_soufi_khalaf",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 92,
+    "fields": {
+        "name": "عبدالعزيز الأحمد",
+        "stream_url": "https://Qurango.net/radio/abdul_aziz_alahmad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 93,
+    "fields": {
+        "name": "عبدالله الخلف",
+        "stream_url": "https://Qurango.net/radio/abdullah_alkhalaf",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 94,
+    "fields": {
+        "name": "عبدالله الكندري",
+        "stream_url": "https://Qurango.net/radio/abdullah_alkandari",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 95,
+    "fields": {
+        "name": "عبدالله المطرود",
+        "stream_url": "https://Qurango.net/radio/abdullah_almattrod",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 96,
+    "fields": {
+        "name": "عبدالله الموسى",
+        "stream_url": "https://Qurango.net/radio/abdullah_almousa",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 97,
+    "fields": {
+        "name": "عبدالله بصفر",
+        "stream_url": "https://Qurango.net/radio/abdullah_basfer",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 98,
+    "fields": {
+        "name": "عبدالله خياط",
+        "stream_url": "https://Qurango.net/radio/abdullah_khayyat",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 99,
+    "fields": {
+        "name": "عبدالله عواد الجهني",
+        "stream_url": "https://Qurango.net/radio/abdullah_aljohany",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 100,
+    "fields": {
+        "name": "عبدالمحسن الحارثي",
+        "stream_url": "https://Qurango.net/radio/abdulmohsin_alharthy",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 101,
+    "fields": {
+        "name": "عبدالمحسن العبيكان",
+        "stream_url": "https://Qurango.net/radio/abdulmohsin_alobaikan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 102,
+    "fields": {
+        "name": "عبدالمحسن القاسم",
+        "stream_url": "https://Qurango.net/radio/abdulmohsen_alqasim",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 103,
+    "fields": {
+        "name": "عبدالهادي أحمد كناكري",
+        "stream_url": "https://Qurango.net/radio/abdulhadi_kanakeri",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 104,
+    "fields": {
+        "name": "عبدالودود حنيف",
+        "stream_url": "https://Qurango.net/radio/abdulwadood_haneef",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 105,
+    "fields": {
+        "name": "عشر ذي الحجة",
+        "stream_url": "https://qurango.net/radio/ten_dhul_hijjah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 106,
+    "fields": {
+        "name": "علي الحذيفي",
+        "stream_url": "https://Qurango.net/radio/ali_alhuthaifi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 107,
+    "fields": {
+        "name": "علي جابر",
+        "stream_url": "https://Qurango.net/radio/ali_jaber",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 108,
+    "fields": {
+        "name": "علي حجاج السويسي",
+        "stream_url": "https://Qurango.net/radio/ali_hajjaj_alsouasi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 109,
+    "fields": {
+        "name": "عماد زهير حافظ",
+        "stream_url": "https://Qurango.net/radio/emad_hafez",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 110,
+    "fields": {
+        "name": "عمر القزابري - رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/omar_alqazabri",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 111,
+    "fields": {
+        "name": "فارس عباد",
+        "stream_url": "https://Qurango.net/radio/fares_abbad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 112,
+    "fields": {
+        "name": "في ظلال السيرة النبوية - 400 حلقة عن سيرة نبينا محمد صلى الله عليه وسلم",
+        "stream_url": "https://Qurango.net/radio/fi_zilal_alsiyra",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 113,
+    "fields": {
+        "name": "كتاب الاختيارات الفقهية في مسائل العبادات والمعاملات من فتاوى الشيخ الإمام ابن باز -رحمه لله",
+        "stream_url": "https://Qurango.net/radio/alaikhtiarat_alfiqhayh_bin_baz",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 114,
+    "fields": {
+        "name": "ماجد الزامل",
+        "stream_url": "https://Qurango.net/radio/majed_alzamel",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 115,
+    "fields": {
+        "name": "ماهر المعيقلي",
+        "stream_url": "https://backup.qurango.net/radio/maher",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 116,
+    "fields": {
+        "name": "ماهر شخاشيرو",
+        "stream_url": "https://Qurango.net/radio/maher_shakhashero",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 117,
+    "fields": {
+        "name": "محمد أبوسنينة",
+        "stream_url": "https://Qurango.net/radio/sneineh",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 118,
+    "fields": {
+        "name": "محمد أيوب",
+        "stream_url": "https://Qurango.net/radio/mohammed_ayyub",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 119,
+    "fields": {
+        "name": "محمد أيوب",
+        "stream_url": "https://qurango.net/radio/ayyoub2",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 120,
+    "fields": {
+        "name": "محمد الأمين قنيوة",
+        "stream_url": "https://Qurango.net/radio/qeniwa",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 121,
+    "fields": {
+        "name": "محمد الطبلاوي",
+        "stream_url": "https://Qurango.net/radio/mohammad_altablaway",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 122,
+    "fields": {
+        "name": "محمد اللحيدان",
+        "stream_url": "https://Qurango.net/radio/mohammed_allohaidan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 123,
+    "fields": {
+        "name": "محمد جبريل",
+        "stream_url": "https://Qurango.net/radio/mohammed_jibreel",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 124,
+    "fields": {
+        "name": "محمد رشاد الشريف",
+        "stream_url": "https://Qurango.net/radio/mohammad_rashad_alshareef",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 125,
+    "fields": {
+        "name": "محمد صالح عالم شاه",
+        "stream_url": "https://Qurango.net/radio/mohammad_saleh_alim_shah",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 126,
+    "fields": {
+        "name": "محمد صديق المنشاوي",
+        "stream_url": "https://Qurango.net/radio/mohammed_siddiq_alminshawi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 127,
+    "fields": {
+        "name": "محمد صديق المنشاوي",
+        "stream_url": "https://qurango.net/radio/mohammed_siddiq_alminshawi_mojawwad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 128,
+    "fields": {
+        "name": "محمد عبدالحكيم العبدالله - رواية البزي وقنبل عن ابن كثير",
+        "stream_url": "https://Qurango.net/radio/mohammad_alabdullah_albizi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 129,
+    "fields": {
+        "name": "محمد عبدالحكيم العبدالله - رواية الدوري عن الكسائي",
+        "stream_url": "https://Qurango.net/radio/mohammad_alabdullah_aldorai",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 130,
+    "fields": {
+        "name": "محمد عبدالكريم",
+        "stream_url": "https://Qurango.net/radio/mohammad_abdullkarem",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 131,
+    "fields": {
+        "name": "محمد عبدالكريم - رواية ورش عن نافع من طريق أبي بكر الأصبهاني",
+        "stream_url": "https://Qurango.net/radio/mohammad_abdullkarem_alasbahani",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 132,
+    "fields": {
+        "name": "محمد عثمان خان ( من الهند )",
+        "stream_url": "https://Qurango.net/radio/mohammed_osman_khan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 133,
+    "fields": {
+        "name": "محمود الرفاعي",
+        "stream_url": "https://Qurango.net/radio/mahmood_al_rifai",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 134,
+    "fields": {
+        "name": "محمود الشيمي - رواية الدوري عن الكسائي",
+        "stream_url": "https://Qurango.net/radio/mahmood_alsheimy",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 135,
+    "fields": {
+        "name": "محمود خليل الحصري",
+        "stream_url": "https://Qurango.net/radio/mahmoud_khalil_alhussary",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 136,
+    "fields": {
+        "name": "محمود خليل الحصري",
+        "stream_url": "https://Qurango.net/radio/mahmoud_khalil_alhussary_mojawwad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 137,
+    "fields": {
+        "name": "محمود خليل الحصري - رواية ورش عن نافع",
+        "stream_url": "https://Qurango.net/radio/mahmoud_khalil_alhussary_warsh",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 138,
+    "fields": {
+        "name": "محمود علي البنا",
+        "stream_url": "https://Qurango.net/radio/mahmoud_ali__albanna",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 139,
+    "fields": {
+        "name": "محمود علي البنا",
+        "stream_url": "https://Qurango.net/radio/mahmoud_ali__albanna_mojawwad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 140,
+    "fields": {
+        "name": "مشاري العفاسي",
+        "stream_url": "https://Qurango.net/radio/mishary_alafasi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 141,
+    "fields": {
+        "name": "مصطفى إسماعيل",
+        "stream_url": "https://Qurango.net/radio/mustafa_ismail",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 142,
+    "fields": {
+        "name": "مصطفى اللاهوني",
+        "stream_url": "https://Qurango.net/radio/mustafa_allahoni",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 143,
+    "fields": {
+        "name": "مصطفى رعد العزاوي",
+        "stream_url": "https://Qurango.net/radio/mustafa_raad_alazawy",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 144,
+    "fields": {
+        "name": "معيض الحارثي",
+        "stream_url": "https://Qurango.net/radio/moeedh_alharthi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 145,
+    "fields": {
+        "name": "مفتاح السلطني",
+        "stream_url": "https://Qurango.net/radio/muftah_alsaltany",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 146,
+    "fields": {
+        "name": "مفتاح السلطني - رواية ابن ذكوان عن ابن عامر",
+        "stream_url": "https://Qurango.net/radio/muftah_alsaltany_ibn_thakwan_an_ibn_amr",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 147,
+    "fields": {
+        "name": "مفتاح السلطني - رواية الدوري عن أبي عمرو",
+        "stream_url": "https://Qurango.net/radio/muftah_alsaltany_aldori_an_abi_amr",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 148,
+    "fields": {
+        "name": "مفتاح السلطني - رواية الدوري عن الكسائي",
+        "stream_url": "https://Qurango.net/radio/muftah_alsaltany_aldorai",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 149,
+    "fields": {
+        "name": "موسى بلال",
+        "stream_url": "https://Qurango.net/radio/mousa_bilal",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 150,
+    "fields": {
+        "name": "ناصر العصفور",
+        "stream_url": "https://Qurango.net/radio/nasser_alosfor",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 151,
+    "fields": {
+        "name": "ناصر القطامي",
+        "stream_url": "https://Qurango.net/radio/nasser_alqatami",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 152,
+    "fields": {
+        "name": "ناصر الماجد",
+        "stream_url": "https://Qurango.net/radio/nasser_almajed",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 153,
+    "fields": {
+        "name": "نبيل الرفاعي",
+        "stream_url": "https://Qurango.net/radio/nabil_al_rifay",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 154,
+    "fields": {
+        "name": "نعمة الحسان",
+        "stream_url": "https://Qurango.net/radio/neamah_alhassan",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 155,
+    "fields": {
+        "name": "هاني الرفاعي",
+        "stream_url": "https://Qurango.net/radio/hani_arrifai",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 156,
+    "fields": {
+        "name": "هيثم الجدعاني",
+        "stream_url": "https://Qurango.net/radio/hitham_aljadani",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 157,
+    "fields": {
+        "name": "وليد النائحي - رواية قالون عن نافع من طريق أبي نشيط",
+        "stream_url": "https://Qurango.net/radio/waleed_alnaehi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 158,
+    "fields": {
+        "name": "ياسر الدوسري",
+        "stream_url": "https://Qurango.net/radio/yasser_aldosari",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 159,
+    "fields": {
+        "name": "ياسر القرشي",
+        "stream_url": "https://Qurango.net/radio/yasser_alqurashi",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 160,
+    "fields": {
+        "name": "ياسر المزروعي - قراءة يعقوب الحضرمي بروايتي رويس وروح ",
+        "stream_url": "https://Qurango.net/radio/yasser_almazroyee",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 161,
+    "fields": {
+        "name": "يحيى حوا",
+        "stream_url": "https://Qurango.net/radio/yahya_hawwa",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 162,
+    "fields": {
+        "name": "يوسف الشويعي",
+        "stream_url": "https://Qurango.net/radio/yousef_alshoaey",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 163,
+    "fields": {
+        "name": "يوسف بن نوح أحمد",
+        "stream_url": "https://Qurango.net/radio/yousef_bin_noah_ahmad",
+        "description": null,
+        "image": "",
+        "categories": []
+    }
+},
+{
+    "model": "radio.radio",
+    "pk": 164,
+    "fields": {
+        "name": "يوم عاشوراء",
+        "stream_url": "https://qurango.net/radio/TheDayofAshoora",
+        "description": "",
+        "image": "",
+        "categories": [
+            1,
+            2,
+            3
+        ]
+    }
+}
+]
